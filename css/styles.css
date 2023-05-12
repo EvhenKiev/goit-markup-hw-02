@@ -1,5 +1,6 @@
 :root {
     --title-color: #2E2F42;
+    --logo-color: #4d5ae5;
 
 }
 
@@ -7,7 +8,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -26,7 +27,17 @@ body {
         letter-spacing: 0.02em;
         color: var (--title-color)
 }
-       
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    margin-right: 76px;
+}
 
 .header-link:hover, .header-link:focus{
 color: blue;
