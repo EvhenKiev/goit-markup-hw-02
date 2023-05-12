@@ -44,21 +44,25 @@ img {
 .header {
     background-color: var(--background-color-one);
 }
-.logo {
-    font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--logo-color);
-}
 
 .header-cont {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+   
+    
+    letter-spacing: 0.03em;
+   
+    color: var(--logo-color);
+}
+
+.logo.link {
+    text-decoration: none;
 }
 .header-logo {
 
