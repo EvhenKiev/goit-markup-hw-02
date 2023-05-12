@@ -1,6 +1,15 @@
 :root {
-    --title-color: #2E2F42;
+    --link-color-hover: #404bbf;
+    --nav-item-color: #2e2f42;
+    --address-list-color: #434455;
     --logo-color: #4d5ae5;
+    --pf-btn-color: #f4f4fd;
+    --background-color-one: #ffffff;
+    --pf-btn-brd-color: #e7e9fc;
+    --customer-icons-color: #8e8f99;
+    --footer-icons-color: #31d0aa;
+    --text-icon-color: #afb1b8;
+    --modal-back-color: #fcfcfc;
 
 }
 
@@ -8,8 +17,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--address-list-color);
+    background-color: var(--background-color-one);
 }
 
 .list {
@@ -19,63 +28,30 @@ body {
 .link {
     text-decoration: none;
 }
+/**======Header========**/
 
-.header-link {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var (--title-color)
+.logo {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-color);
 }
 
-.logo {font-family: "Raleway", sans-serif;
+.header-logo {
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color);
-    margin-right: 76px;}
-   
-    /**==================| Header |============================*/ 
-    
-    
-    .header {
-      border-bottom: 1px solid #e7e9fc;
-      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-          0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-      z-index: 10;
-      background-color: var(--background-color-one);
-  }
-
-  .header-cont {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-
-  .logo {
-      font-family: "Raleway", sans-serif;
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: var(--logo-color);
-      margin-right: 76px;
-  }
-
-  .logo.link {
-      text-decoration: none;
-  }
-
-  .header-logo {
-      color: var(--nav-item-color);
-  }
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--nav-item-color);
+}
+  
 .header-link:hover, .header-link:focus{
 color: blue;
 }
@@ -86,7 +62,7 @@ color: blue;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--address-list-color);
 }
 
 /**=========HERO==========**/
