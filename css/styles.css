@@ -42,7 +42,7 @@ color: blue;
 /**=========HERO==========**/
 
 .hero {
-    background-color:var (--title-color);
+    background-color: var (--title-color);
 }
 
 .hero-title {
