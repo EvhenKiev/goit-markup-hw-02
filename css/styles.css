@@ -66,6 +66,11 @@ img {
         color: var(--nav-item-color);
 }
   
+/* Menu Nav */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-link:hover, .header-link:focus{
 color: blue;
 }
