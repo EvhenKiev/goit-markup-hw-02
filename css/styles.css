@@ -39,7 +39,8 @@ img {
     padding: 0 15px;
     margin: 0 auto;
 }
-/**======Header========**/
+
+/**============Header===============**/
 .header {
     background-color: var(--background-color-one);
 }
