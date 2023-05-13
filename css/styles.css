@@ -163,34 +163,21 @@ font-family: 'Roboto', sans-serif;
 }
 /**==========Section 2==========**/
 
-.work-item {
- 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var (--title-color);
-}
+
 
 /**===========Section 3=========**/
 
-.team-list {
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color:var (--title-color);
+.team {
+    background-color: #F4F4FD;
 }
+
 .team-personal {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var (--title-color);
+    background-color: #FFFFFF;
+}
+/* FOOTER */
+.footer {
+    background-color: var(--nav-item-color);
+}
+.footer-logo {
+    color: #f4f4fd;
 }
