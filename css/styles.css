@@ -21,11 +21,6 @@ body {
     background-color: var(--background-color-one);
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
 .list {
     list-style: none;
