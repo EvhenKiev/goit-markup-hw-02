@@ -100,6 +100,7 @@ font-family: 'Roboto', sans-serif;
 .address-link:focus {
     color: #404bbf;
 }
+
 /**=========HERO==========**/
 
 .hero {
@@ -133,14 +134,33 @@ font-family: 'Roboto', sans-serif;
     background-color: #404BBF;
 }
 /**=========Section 1==========**/
+.title-h-2 {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color:var(--nav-item-color);
+}
 .title-h-3 {
+    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;  
-        letter-spacing: 0.02em;
-        color: var (--title-color);
+        line-height: 1.2;
+        letter-spacing: 0.02em;   
+        color:var(--nav-item-color)
 }
 
+.desc-item {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--address-list-color);
+}
 /**==========Section 2==========**/
 
 .work-item {
