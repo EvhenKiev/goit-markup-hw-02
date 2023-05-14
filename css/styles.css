@@ -197,6 +197,7 @@ font-family: 'Roboto', sans-serif;
     background-color: var(--pf-btn-color);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
