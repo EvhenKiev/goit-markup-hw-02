@@ -136,7 +136,7 @@ font-family: 'Roboto', sans-serif;
     background-color: #404BBF;
 }
 /**=========Section 1==========**/
-.title-h-2 {
+.title-h-two {
     font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
@@ -146,7 +146,7 @@ font-family: 'Roboto', sans-serif;
         text-transform: capitalize;
         color:var(--nav-item-color);
 }
-.title-h-3 {
+.title-h-three {
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
